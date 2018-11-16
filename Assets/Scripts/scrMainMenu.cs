@@ -15,6 +15,11 @@ public class scrMainMenu : MonoBehaviour {
         Debug.Log("QUIT!");
         Application.Quit();
     }
+
+    public void Options()
+    {
+        SceneManager.LoadScene("OptionsMenu");
+    }
 	
 
 

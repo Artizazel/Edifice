@@ -17,10 +17,14 @@ public class Health : MonoBehaviour {
 
     public OnDamagedEvent onDamage;
 
+    public bool TakenDamage = false;
+
 
     public void TakeDamage(int damage)
     {
         health -= damage;
+
+        TakenDamage = true;
 
         onDamage.Invoke(health);
 

@@ -57,11 +57,19 @@
      <Compile Include="Assets\Scripts\CameraFollow.cs" />
      <Compile Include="Assets\Scripts\DestroyMenu.cs" />
      <Compile Include="Assets\Scripts\DestroyOnDie.cs" />
+     <Compile Include="Assets\Scripts\Enemy.cs" />
+     <Compile Include="Assets\Scripts\Gun.cs" />
      <Compile Include="Assets\Scripts\Health.cs" />
+     <Compile Include="Assets\Scripts\MoveTowardsCletus.cs" />
      <Compile Include="Assets\Scripts\PlayerAnimate.cs" />
      <Compile Include="Assets\Scripts\scrMainMenu.cs" />
+     <Compile Include="Assets\Scripts\SmoothLookAtCletus.cs" />
      <Compile Include="Assets\Scripts\SmoothMouseLook.cs" />
+     <Compile Include="Assets\Scripts\TakeDamage.cs" />
      <Compile Include="Assets\Scripts\TopDownMovement2D.cs" />
+     <Compile Include="Assets\Scripts\Typer.cs" />
+     <Compile Include="Assets\Scripts\UI.cs" />
+     <Compile Include="Assets\Scripts\ZombieVision.cs" />
  <Reference Include="UnityEditor.StandardEvents">
  <HintPath>E:/GitBackup/Edifice/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
  </Reference>

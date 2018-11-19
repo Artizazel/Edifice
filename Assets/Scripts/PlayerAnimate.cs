@@ -6,6 +6,9 @@ public class PlayerAnimate : MonoBehaviour {
 
     private Animator gunAnim;
 
+    public delegate void UpdateHealth(int newHealth);
+    public static event UpdateHealth OnUpdateHealth;
+
 
 	// Use this for initialization
 	private void Start () {
@@ -24,6 +27,20 @@ public class PlayerAnimate : MonoBehaviour {
             gunAnim.SetBool("isFiring", false);
         }
 
+
+
+
 		
 	}
+
+    public void SendHealthData(int health)
+    {
+        if (OnUpdateHealth != null)
+        {
+            OnUpdateHealth(health);
+        }
+    }
+
+
+
 }

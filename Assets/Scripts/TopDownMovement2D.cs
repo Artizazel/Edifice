@@ -37,6 +37,7 @@ public class TopDownMovement2D : MonoBehaviour {
 
 
             rigibody.velocity = new Vector2(x, y) * speed;
+            
             rigibody.angularVelocity = 0f;
 
             if (transform.position.x > 8.5 && transform.position.x < 9 && isDialogue == false)
@@ -53,7 +54,7 @@ public class TopDownMovement2D : MonoBehaviour {
         Vector3 desiredPosition = LocationPrefab.position;
         transform.position = Vector3.MoveTowards(currentPosition, desiredPosition, 0.1f);
         Instantiate(FadeOutPrefab);
-        Invoke("NextScene", 3f);
+        Invoke("NextScene", 4f);
 
     }
     private void Dialogue1()

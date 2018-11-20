@@ -61,9 +61,11 @@
      <Compile Include="Assets\Scripts\Gun.cs" />
      <Compile Include="Assets\Scripts\Health.cs" />
      <Compile Include="Assets\Scripts\MoveTowardsCletus.cs" />
+     <Compile Include="Assets\Scripts\MoveTowardsCletus1.cs" />
      <Compile Include="Assets\Scripts\PlayerAnimate.cs" />
      <Compile Include="Assets\Scripts\scrMainMenu.cs" />
      <Compile Include="Assets\Scripts\SmoothLookAtCletus.cs" />
+     <Compile Include="Assets\Scripts\SmoothLookAtCletus1.cs" />
      <Compile Include="Assets\Scripts\SmoothMouseLook.cs" />
      <Compile Include="Assets\Scripts\TakeDamage.cs" />
      <Compile Include="Assets\Scripts\TopDownMovement2D.cs" />

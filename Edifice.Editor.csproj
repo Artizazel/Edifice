@@ -350,6 +350,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Edifice.csproj">
+      <Project>{159B69B9-5AA0-657E-A0C0-BB95BA0F6068}</Project>
+      <Name>Edifice</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
     <Compile Include="C:\Users\sbloxham2\AppData\Local\Unity\cache\packages\packages.unity.com\com.unity.standardevents@1.0.13\Editor\Importer.cs" />
   </ItemGroup>
   <ItemGroup>

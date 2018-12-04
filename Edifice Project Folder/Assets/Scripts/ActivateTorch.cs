@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class ActivateTorch : MonoBehaviour {
 
@@ -11,6 +12,12 @@ public class ActivateTorch : MonoBehaviour {
     private bool Toggled = false;
 
     int i = 0;
+
+
+    float torchBattery = 100;
+
+
+    public Slider batterySlider;
 
 
     private void ToggleLight()
@@ -60,11 +67,31 @@ public class ActivateTorch : MonoBehaviour {
 
         Flicker();
 
+        if(torchBattery < 100)
+        {
+            torchBattery += 0.05f;
+        }
 
-        if(Input.GetMouseButton(1) && Toggled == false)
+
+
+        if(Input.GetMouseButton(1) && Toggled == false && torchBattery > 0)
         {
             ToggleLight();
         }
+
+        if(Flashlight.enabled == true)
+        {
+            torchBattery -= 0.1f;
+        }
+
+        if(torchBattery < 0.01)
+        {
+            Flashlight.enabled = false;
+        }
+
+
+        batterySlider.value = torchBattery;
+
 		
 	}
 }

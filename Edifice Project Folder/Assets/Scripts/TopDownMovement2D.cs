@@ -37,7 +37,7 @@ public class TopDownMovement2D : MonoBehaviour {
 
 
             rigibody.velocity = new Vector2(x, y) * speed;
-            
+
             rigibody.angularVelocity = 0f;
 
             if (transform.position.x > 8.5 && transform.position.x < 9 && isDialogue == false)

@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Gun : MonoBehaviour {
 
@@ -19,6 +20,10 @@ public class Gun : MonoBehaviour {
 
     private int ammo = 7;
 
+    public Slider reloadingSlider;
+
+    private bool reloading = false;
+
 	
 	// Update is called once per frame
 	void Update () {
@@ -26,6 +31,8 @@ public class Gun : MonoBehaviour {
         if (Input.GetMouseButton(0) && ammo > 0)
         {
             if(!isFiring){
+
+
 
                 Fire();
                 
@@ -36,13 +43,49 @@ public class Gun : MonoBehaviour {
 
         if (Input.GetKeyDown("r") && ammo < 7)
         {
-            ammo = 7;
 
-            if (OnUpdateAmmo != null) OnUpdateAmmo(ammo);
+
+
+            reloadingSlider.value = 0;
+
+            reloading = true;
+           
+
+            Invoke("reload", 1f);
+
+
+
+            
+
+            
         }
 
 
     }
+
+    void FixedUpdate()
+    {
+        if (reloading == true)
+        {
+            reloadingSlider.value++;
+        }
+    }
+
+
+
+
+    private void reload()
+    {
+
+        reloading = false;
+        ammo = 7;
+        reloadingSlider.value = 0;
+        if (OnUpdateAmmo != null) OnUpdateAmmo(ammo);
+
+
+
+    }
+
 
     private void Fire()
     {

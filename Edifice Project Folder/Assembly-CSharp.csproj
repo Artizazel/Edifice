@@ -53,6 +53,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\ActivateTorch.cs" />
+     <Compile Include="Assets\Scripts\AmmoUI.cs" />
      <Compile Include="Assets\Scripts\Bullet.cs" />
      <Compile Include="Assets\Scripts\CameraFollow.cs" />
      <Compile Include="Assets\Scripts\DestroyMenu.cs" />
@@ -63,6 +65,7 @@
      <Compile Include="Assets\Scripts\MoveTowardsCletus.cs" />
      <Compile Include="Assets\Scripts\MoveTowardsCletus1.cs" />
      <Compile Include="Assets\Scripts\PlayerAnimate.cs" />
+     <Compile Include="Assets\Scripts\PlayerHealth.cs" />
      <Compile Include="Assets\Scripts\scrMainMenu.cs" />
      <Compile Include="Assets\Scripts\SmoothLookAtCletus.cs" />
      <Compile Include="Assets\Scripts\SmoothLookAtCletus1.cs" />

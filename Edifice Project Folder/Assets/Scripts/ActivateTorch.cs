@@ -41,7 +41,7 @@ public class ActivateTorch : MonoBehaviour {
     private int Flicker()
     {
 
-        if (i < 10)
+        if (i < 20)
         {
             Flashlight.enabled = !Flashlight.enabled;
         }
@@ -69,7 +69,7 @@ public class ActivateTorch : MonoBehaviour {
 
         if(torchBattery < 100)
         {
-            torchBattery += 0.05f;
+            torchBattery += 0.1f;
         }
 
 
@@ -81,7 +81,7 @@ public class ActivateTorch : MonoBehaviour {
 
         if(Flashlight.enabled == true)
         {
-            torchBattery -= 0.1f;
+            torchBattery -= 0.12f;
         }
 
         if(torchBattery < 0.01)

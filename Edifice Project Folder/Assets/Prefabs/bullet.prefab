@@ -26,7 +26,7 @@ GameObject:
   m_Layer: 8
   m_Name: bullet
   m_TagString: Untagged
-  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -100,7 +100,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 3000
-  damage: 4
+  damage: 7
 --- !u!212 &212876814667949482
 SpriteRenderer:
   m_ObjectHideFlags: 1

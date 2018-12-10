@@ -13,6 +13,8 @@ public class Health : MonoBehaviour {
 
     public int health = 10;
 
+    public GameObject zombieBody;
+
     public UnityEvent onDie;
 
     public OnDamagedEvent onDamage;
@@ -30,21 +32,21 @@ public class Health : MonoBehaviour {
 
         if(health < 1)
         {
+
+
+            Vector3 rotationInDegrees = transform.eulerAngles;
+
+            Quaternion rotationInRadians = Quaternion.Euler(rotationInDegrees);
+            Instantiate(zombieBody, transform.position, rotationInRadians);
+
+
+
             onDie.Invoke();
+
+
         }
     }
 
 
 
-
-
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
 }

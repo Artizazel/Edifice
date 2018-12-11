@@ -13,7 +13,7 @@ public class Health : MonoBehaviour {
 
     public int health = 10;
 
-    public GameObject zombieBody;
+    public GameObject playerBody;
 
     public UnityEvent onDie;
 
@@ -37,7 +37,7 @@ public class Health : MonoBehaviour {
             Vector3 rotationInDegrees = transform.eulerAngles;
 
             Quaternion rotationInRadians = Quaternion.Euler(rotationInDegrees);
-            Instantiate(zombieBody, transform.position, rotationInRadians);
+            Instantiate(playerBody, transform.position, rotationInRadians);
 
 
 

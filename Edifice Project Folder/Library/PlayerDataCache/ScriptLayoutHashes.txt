@@ -1,6 +1,6 @@
 WindowsStandalone
 PlayerPath?
-C:/Users/sbloxham2/Documents/GitHub/Edifice/Edifice Game Build/Edifice Game Build.exe
+E:/GitBackup/Edifice/Prototype Build/Prototype Build.exe
 SceneListBegin?
 Assets/Scenes/TitleMenu.unity
 Assets/Scenes/Act1.unity
@@ -115,6 +115,7 @@ e9bdabf9265d758d56f01bb188916fa8 UnityEngine.Networking.dll:UnityEngine.Networki
 9de3a22eca9aefadba2d10d5987cefe3 UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
 322cb40e1e282f28af980cbef7922a90 UnityEngine.Analytics.dll:UnityEngine.Analytics.AnalyticsEventTracker
 dc07d7ad69b399a46e92c483bf1c04ca UnityEngine.Analytics.dll:UnityEngine.Analytics.AnalyticsTracker
+76a6a6f2ded2f1c0a95b373ad3754065 Assembly-CSharp.dll:.AmmoUI
 bc68edb0af574bf79f9550ead8ebae5c UnityEngine.HoloLens.dll:UnityEngine.Audio.AudioSpatializerMicrosoft
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.HoloLens.dll:UnityEngine.EventSystems.HoloLensInput
 463516d5b5fe8e67a0a24c48f2095b04 UnityEngine.HoloLens.dll:UnityEngine.EventSystems.HoloLensInputModule
@@ -123,9 +124,10 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 1df0d01580ae4a1f6bfccd9a0ec896f9 Assembly-CSharp.dll:.Typer
 eab4666e5d86f456771a1c729bb4a562 Assembly-CSharp.dll:.SmoothLookAtCletus1
 17b7f9042af43d8cb0d09f716ddf329b Assembly-CSharp.dll:.ZombieVision
-82edcb23f08a0c5d6f1eef3c169a327f Assembly-CSharp.dll:.Gun
+17753c6724afe555b0d94241823f7ddc Assembly-CSharp.dll:.Gun
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.scrMainMenu
 d0fa01a95a4d30d38c4de1f3bde685ca Assembly-CSharp.dll:.CameraFollow
+93c4fa6440169cff5e1f01a09a10188b Assembly-CSharp.dll:.ActivateTorch
 fc1e0f4d8439d9928083474691511a13 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkAnimator
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Networking.dll:UnityEngine.Networking.NetworkBehaviour
 60b2bb652410a5867a5ab9a01cd38461 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkDiscovery
@@ -140,7 +142,7 @@ e9bdabf9265d758d56f01bb188916fa8 UnityEngine.Networking.dll:UnityEngine.Networki
 3f32f08a64daf40b09ed864d96fe3840 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransform
 73843688b51256aed059f049c540bca8 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformChild
 528ea1fd7c01796fc60c4e2f172ea229 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformVisualizer
-ed58623dfc083ec82fb2f96ff16f006d Assembly-CSharp.dll:.Health
+1cf708a7b3bb3a13995e0b0ac6e5fa3f Assembly-CSharp.dll:.Health
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.PlayerAnimate
 a82a163ae7a14cb7d387716fca140e01 Assembly-CSharp.dll:.TopDownMovement2D
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.Callbacks.PlayModeRunnerCallback
@@ -154,6 +156,7 @@ e0f7ffd5d5c2abe4b2e16569a21163da UnityEngine.GoogleAudioSpatializer.dll:UnityEng
 e0f7ffd5d5c2abe4b2e16569a21163da UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioRoom
 67a5f2c97205d2e41a8ed7c7ce898f6e UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioSoundfieldExtension
 67a5f2c97205d2e41a8ed7c7ce898f6e UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioSourceExtension
+fa280554f010c3b04d9b8fc4eeed5db4 Assembly-CSharp.dll:.PlayerHealth
 c4804b4e9707ab1046803d0eec61f510 Assembly-CSharp.dll:.TakeDamage
 bc68edb0af574bf79f9550ead8ebae5c UnityEngine.HoloLens.dll:UnityEngine.Audio.AudioSpatializerMicrosoft
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.HoloLens.dll:UnityEngine.EventSystems.HoloLensInput

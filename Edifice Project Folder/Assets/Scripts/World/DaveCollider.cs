@@ -21,10 +21,12 @@ public class DaveCollider : MonoBehaviour {
     public Transform davePos;
 
     
-
+    
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+
+        
 
         if (dialoguePlayed == false)
         {

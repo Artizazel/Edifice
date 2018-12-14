@@ -11,7 +11,7 @@ public class Bullet : MonoBehaviour {
     public int damage = 1;
 
 
-
+    public GameObject hitEffect;
 
 
 
@@ -44,6 +44,12 @@ public class Bullet : MonoBehaviour {
         Transform hitObject = other.transform;
 
         hitObject.SendMessage(methodName, damage, messageOptions);
+
+        
+
+
+        Instantiate(hitEffect, transform.position, transform.rotation);
+
 
         Destroy(gameObject);
     }

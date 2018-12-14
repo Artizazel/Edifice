@@ -70,17 +70,20 @@
      <Compile Include="Assets\Scripts\Player\Gun.cs" />
      <Compile Include="Assets\Scripts\Player\PlayerAnimate.cs" />
      <Compile Include="Assets\Scripts\Player\PlayerHealth.cs" />
+     <Compile Include="Assets\Scripts\Player\selfDestruct.cs" />
      <Compile Include="Assets\Scripts\Player\SmoothMouseLook.cs" />
      <Compile Include="Assets\Scripts\Player\TakeDamage.cs" />
      <Compile Include="Assets\Scripts\Player\TopDownMovement2D.cs" />
      <Compile Include="Assets\Scripts\UI\AmmoUI.cs" />
      <Compile Include="Assets\Scripts\UI\DestroyMenu.cs" />
+     <Compile Include="Assets\Scripts\UI\GameOverAct2.cs" />
      <Compile Include="Assets\Scripts\UI\scrMainMenu.cs" />
      <Compile Include="Assets\Scripts\UI\Typer.cs" />
      <Compile Include="Assets\Scripts\UI\UI.cs" />
      <Compile Include="Assets\Scripts\World\DaveCollider.cs" />
      <Compile Include="Assets\Scripts\World\DestroyOnDie.cs" />
      <Compile Include="Assets\Scripts\World\DoorCollider1.cs" />
+     <Compile Include="Assets\Scripts\World\Healing.cs" />
  <Reference Include="UnityEditor.StandardEvents">
  <HintPath>E:/GitBackup/Edifice/Edifice Project Folder/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
  </Reference>

@@ -25,6 +25,8 @@ public class PlayerHealth : MonoBehaviour
 
     public Slider HealthSlider;
 
+    public GameObject gameOverScreen;
+
 
     public void TakeDamage(int damage)
     {
@@ -43,13 +45,28 @@ public class PlayerHealth : MonoBehaviour
             Quaternion rotationInRadians = Quaternion.Euler(rotationInDegrees);
             Instantiate(playerBody, transform.position, rotationInRadians);
 
-
-
             onDie.Invoke();
+
+            Instantiate(gameOverScreen);
 
 
         }
     }
+
+    public void Heal()
+    {
+
+        health = 300;
+
+
+        Debug.Log("Healed");
+
+
+
+    }
+
+
+
 
 
     void Update()

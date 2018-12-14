@@ -53,28 +53,34 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\ActivateTorch.cs" />
-     <Compile Include="Assets\Scripts\AmmoUI.cs" />
-     <Compile Include="Assets\Scripts\Bullet.cs" />
-     <Compile Include="Assets\Scripts\CameraFollow.cs" />
-     <Compile Include="Assets\Scripts\DestroyMenu.cs" />
-     <Compile Include="Assets\Scripts\DestroyOnDie.cs" />
-     <Compile Include="Assets\Scripts\Enemy.cs" />
-     <Compile Include="Assets\Scripts\Gun.cs" />
-     <Compile Include="Assets\Scripts\Health.cs" />
-     <Compile Include="Assets\Scripts\MoveTowardsCletus.cs" />
-     <Compile Include="Assets\Scripts\MoveTowardsCletus1.cs" />
-     <Compile Include="Assets\Scripts\PlayerAnimate.cs" />
-     <Compile Include="Assets\Scripts\PlayerHealth.cs" />
-     <Compile Include="Assets\Scripts\scrMainMenu.cs" />
-     <Compile Include="Assets\Scripts\SmoothLookAtCletus.cs" />
-     <Compile Include="Assets\Scripts\SmoothLookAtCletus1.cs" />
-     <Compile Include="Assets\Scripts\SmoothMouseLook.cs" />
-     <Compile Include="Assets\Scripts\TakeDamage.cs" />
-     <Compile Include="Assets\Scripts\TopDownMovement2D.cs" />
-     <Compile Include="Assets\Scripts\Typer.cs" />
-     <Compile Include="Assets\Scripts\UI.cs" />
-     <Compile Include="Assets\Scripts\ZombieVision.cs" />
+     <Compile Include="Assets\Scripts\Enemies\Enemy.cs" />
+     <Compile Include="Assets\Scripts\Enemies\Health.cs" />
+     <Compile Include="Assets\Scripts\Enemies\Zombies\MoveTowardsCletus.cs" />
+     <Compile Include="Assets\Scripts\Enemies\Zombies\MoveTowardsCletus1.cs" />
+     <Compile Include="Assets\Scripts\Enemies\Zombies\MoveTowardsCletus2.cs" />
+     <Compile Include="Assets\Scripts\Enemies\Zombies\MoveTowardsCletus3.cs" />
+     <Compile Include="Assets\Scripts\Enemies\Zombies\SmoothLookAtCletus.cs" />
+     <Compile Include="Assets\Scripts\Enemies\Zombies\SmoothLookAtCletus1.cs" />
+     <Compile Include="Assets\Scripts\Enemies\Zombies\SmoothLookAtCletus2.cs" />
+     <Compile Include="Assets\Scripts\Enemies\Zombies\SmoothLookAtCletus3.cs" />
+     <Compile Include="Assets\Scripts\Enemies\ZombieVision.cs" />
+     <Compile Include="Assets\Scripts\Player\ActivateTorch.cs" />
+     <Compile Include="Assets\Scripts\Player\Bullet.cs" />
+     <Compile Include="Assets\Scripts\Player\CameraFollow.cs" />
+     <Compile Include="Assets\Scripts\Player\Gun.cs" />
+     <Compile Include="Assets\Scripts\Player\PlayerAnimate.cs" />
+     <Compile Include="Assets\Scripts\Player\PlayerHealth.cs" />
+     <Compile Include="Assets\Scripts\Player\SmoothMouseLook.cs" />
+     <Compile Include="Assets\Scripts\Player\TakeDamage.cs" />
+     <Compile Include="Assets\Scripts\Player\TopDownMovement2D.cs" />
+     <Compile Include="Assets\Scripts\UI\AmmoUI.cs" />
+     <Compile Include="Assets\Scripts\UI\DestroyMenu.cs" />
+     <Compile Include="Assets\Scripts\UI\scrMainMenu.cs" />
+     <Compile Include="Assets\Scripts\UI\Typer.cs" />
+     <Compile Include="Assets\Scripts\UI\UI.cs" />
+     <Compile Include="Assets\Scripts\World\DaveCollider.cs" />
+     <Compile Include="Assets\Scripts\World\DestroyOnDie.cs" />
+     <Compile Include="Assets\Scripts\World\DoorCollider1.cs" />
  <Reference Include="UnityEditor.StandardEvents">
  <HintPath>E:/GitBackup/Edifice/Edifice Project Folder/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
  </Reference>

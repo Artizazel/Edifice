@@ -16,23 +16,46 @@ public class TopDownMovement2D : MonoBehaviour {
     public Transform LocationPrefab;
 
     private bool inDialogue = false;
+
+
     
 
-	// Use this for initialization
-	void Start () {
+
+    // Use this for initialization
+    void Start () {
         rigibody = GetComponent<Rigidbody2D>();
+
         
-	}
+
+
+
+    }
 
     // Update is called once per frame
     void FixedUpdate()
     {
+
+        GameObject Door = GameObject.Find("Door Collider");
+        DoorCollider1 doorScript = Door.GetComponent<DoorCollider1>();
+
+
+        GameObject Dave = GameObject.Find("Dave");
+        DaveCollider daveColliderScript = Dave.GetComponent<DaveCollider>();
 
 
         if (inDialogue == false)
         {
             float x = Input.GetAxis("Horizontal");
             float y = Input.GetAxis("Vertical");
+
+            speed = 3.5f;
+
+            if (doorScript.dialogue1End == false || daveColliderScript.inDialogue == true)
+            {
+                speed = 0;
+            }
+
+
 
 
 
@@ -54,7 +77,7 @@ public class TopDownMovement2D : MonoBehaviour {
         Vector3 desiredPosition = LocationPrefab.position;
         transform.position = Vector3.MoveTowards(currentPosition, desiredPosition, 0.1f);
         Instantiate(FadeOutPrefab);
-        Invoke("NextScene", 4f);
+        Invoke("NextScene", 3f);
 
     }
     private void Dialogue1()
@@ -62,6 +85,7 @@ public class TopDownMovement2D : MonoBehaviour {
         Instantiate(dialoguePrefab);
         inDialogue = true;
         isDialogue = true;
+        speed = 0f;
         Invoke("endDialogue1", 15f);
 
         

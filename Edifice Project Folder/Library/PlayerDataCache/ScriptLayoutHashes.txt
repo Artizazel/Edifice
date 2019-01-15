@@ -1,6 +1,6 @@
 WindowsStandalone
 PlayerPath?
-E:/GitBackup/Edifice/Prototype Build/Prototype Build.exe
+C:/Users/sbloxham2/Documents/GitHub/Edifice/Edifice Build/Edifice Build.exe
 SceneListBegin?
 Assets/Scenes/TitleMenu.unity
 Assets/Scenes/Act1.unity
@@ -21,6 +21,7 @@ ff05dcdf90651c3d98a9cad3df5e471e UnityEngine.Timeline.dll:UnityEngine.Timeline.C
 30afa8783a8bbee2e465ec9ce1efaee2 UnityEngine.Timeline.dll:UnityEngine.Timeline.GroupTrack
 30afa8783a8bbee2e465ec9ce1efaee2 UnityEngine.Timeline.dll:UnityEngine.Timeline.PlayableTrack
 607d64d2c4bc76ac9876e6f7b9cc7edf UnityEngine.Timeline.dll:UnityEngine.Timeline.TimelineAsset
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.GameOverAct1
 a35dc9cca2faebc5f5f1aeb9e8e47bbe UnityEngine.UI.dll:UnityEngine.UI.AspectRatioFitter
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.UI.dll:UnityEngine.EventSystems.BaseInput
 49cd62a578efc0a599b810a2b66cd49c UnityEngine.UI.dll:UnityEngine.UI.Button
@@ -153,6 +154,7 @@ e9bdabf9265d758d56f01bb188916fa8 UnityEngine.Networking.dll:UnityEngine.Networki
 3f32f08a64daf40b09ed864d96fe3840 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransform
 73843688b51256aed059f049c540bca8 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformChild
 528ea1fd7c01796fc60c4e2f172ea229 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformVisualizer
+57df2af7a36b6db7573aff17f2720982 Assembly-CSharp.dll:.JessCollider
 f4dc8f3ebcbfa1cfeadd8e74b8772cec Assembly-CSharp.dll:.Health
 eab4666e5d86f456771a1c729bb4a562 Assembly-CSharp.dll:.SmoothLookAtCletus5
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.PlayerAnimate
@@ -191,8 +193,6 @@ eab4666e5d86f456771a1c729bb4a562 Assembly-CSharp.dll:.SmoothLookAtCletus
 eab4666e5d86f456771a1c729bb4a562 Assembly-CSharp.dll:.SmoothLookAtCletus7
 eab4666e5d86f456771a1c729bb4a562 Assembly-CSharp.dll:.SmoothLookAtCletus9
 1ee47048d700dd00b56f643026953707 Assembly-CSharp.dll:.MoveTowardsCletus7
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.GameOverAct3
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.DestroyOnDie
 09b1ffd89522cafe15546a0482157e21 Assembly-CSharp.dll:.MoveTowardsCletus
-57df2af7a36b6db7573aff17f2720982 Assembly-CSharp.dll:.JessCollider
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.GameOverAct3
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.GameOverAct1

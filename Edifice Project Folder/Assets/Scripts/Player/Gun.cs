@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Gun : MonoBehaviour {
 
@@ -58,6 +59,27 @@ public class Gun : MonoBehaviour {
             
 
             
+        }
+
+        if(Input.GetKeyDown("8"))
+        {
+            SceneManager.LoadScene("TitleMenu");
+        }
+        if (Input.GetKeyDown("9"))
+        {
+            SceneManager.LoadScene("Act 1");
+        }
+        if (Input.GetKeyDown("0"))
+        {
+            SceneManager.LoadScene("Act 1.5");
+        }
+        if (Input.GetKeyDown("-"))
+        {
+            SceneManager.LoadScene("Act2");
+        }
+        if (Input.GetKeyDown("="))
+        {
+            SceneManager.LoadScene("Act3");
         }
 
 

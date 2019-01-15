@@ -42,6 +42,9 @@ public class TopDownMovement2D : MonoBehaviour {
         GameObject Dave = GameObject.Find("Dave");
         DaveCollider daveColliderScript = Dave.GetComponent<DaveCollider>();
 
+        GameObject Jess = GameObject.Find("Jessiqoi");
+        JessCollider jessColliderScript = Jess.GetComponent<JessCollider>();
+
 
         if (inDialogue == false)
         {
@@ -50,7 +53,7 @@ public class TopDownMovement2D : MonoBehaviour {
 
             speed = 3.5f;
 
-            if (doorScript.dialogue1End == false || daveColliderScript.inDialogue == true)
+            if (doorScript.dialogue1End == false || daveColliderScript.inDialogue == true || jessColliderScript.inDialogue == true)
             {
                 speed = 0;
             }

@@ -88,6 +88,7 @@
      <Compile Include="Assets\Scripts\Player\TopDownMovement2D.cs" />
      <Compile Include="Assets\Scripts\UI\AmmoUI.cs" />
      <Compile Include="Assets\Scripts\UI\DestroyMenu.cs" />
+     <Compile Include="Assets\Scripts\UI\End.cs" />
      <Compile Include="Assets\Scripts\UI\GameOverAct1.cs" />
      <Compile Include="Assets\Scripts\UI\GameOverAct2.cs" />
      <Compile Include="Assets\Scripts\UI\GameOverAct3.cs" />

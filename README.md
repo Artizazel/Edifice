@@ -10,7 +10,7 @@ Module: AINT 155 Games Workshop
 
 Assignment: Unity 2D Zombie Shooter
 
-Usage Instructions: Open the folder titled 'Edifice Game Build' and open the executable 'Edifice Game Build.exe'
+Usage Instructions: Open the folder titled 'Edifice Build' and open the executable 'Edifice Build.exe'
 
 
 Borrowed Assests(Sounds):

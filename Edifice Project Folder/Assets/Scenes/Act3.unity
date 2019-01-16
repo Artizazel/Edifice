@@ -20,7 +20,7 @@ RenderSettings:
   m_FogDensity: 0.01
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
-  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientSkyColor: {r: 0.07450981, g: 0.078431375, b: 0.08627451, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 1
@@ -175,7 +175,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1485046492}
-  speed: 5
+  speed: 3
 --- !u!58 &108045688
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -216,7 +216,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3bc6b8c9b3396ec409e9a2d662ca8720, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 11
+  health: 10
   playerBody: {fileID: 1686071791207444, guid: f1c924217f66d704298d5749abf4de7f, type: 2}
   onDie:
     m_PersistentCalls:
@@ -526,6 +526,74 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 206509113}
+--- !u!1 &219479714
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 219479715}
+  - component: {fileID: 219479717}
+  - component: {fileID: 219479716}
+  m_Layer: 5
+  m_Name: Inst
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &219479715
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 219479714}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1613971108}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 333.29996, y: 160}
+  m_SizeDelta: {x: 372, y: 245.48}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &219479716
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 219479714}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 21300000, guid: 6c6cb44ac44c92e4aa996fc2b07b6a9a, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &219479717
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 219479714}
 --- !u!1 &228043016
 GameObject:
   m_ObjectHideFlags: 0
@@ -38197,7 +38265,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.3018868, g: 0, b: 0.020661697, a: 1}
+  m_Color: {r: 0.67058825, g: 0, b: 0.043137256, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -38459,7 +38527,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 2d98517d8b4c8fc4a976ca7b72170a1b, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.5
+  m_Volume: 0.711
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -38674,6 +38742,11 @@ Prefab:
       propertyPath: m_Layer
       value: 12
       objectReference: {fileID: 0}
+    - target: {fileID: 114767603294364664, guid: 1dad87accd05e934eaf2101f93132f54,
+        type: 2}
+      propertyPath: speed
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1dad87accd05e934eaf2101f93132f54, type: 2}
   m_IsPrefabParent: 0
@@ -38883,7 +38956,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3bc6b8c9b3396ec409e9a2d662ca8720, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 11
+  health: 10
   playerBody: {fileID: 1686071791207444, guid: f1c924217f66d704298d5749abf4de7f, type: 2}
   onDie:
     m_PersistentCalls:
@@ -38933,7 +39006,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1485046492}
-  speed: 5
+  speed: 3
 --- !u!212 &935309833
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -39690,7 +39763,7 @@ GameObject:
   - component: {fileID: 1258601201}
   - component: {fileID: 1258601200}
   - component: {fileID: 1258601203}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Jessiqoi
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39791,7 +39864,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b22c4890602ee649a9da4cfb8ba9de2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeOut: {fileID: 1851047117071894, guid: 2556670046be9f842b5355ae022aa0eb, type: 2}
+  zombie: {fileID: 1346184641}
+  zombie1: {fileID: 870410654}
+  zombie2: {fileID: 935309826}
+  zombie3: {fileID: 1366387935}
+  zombie4: {fileID: 1933229246}
+  zombie5: {fileID: 108045684}
+  dialogue: {fileID: 1481705996602222, guid: 3905177a66e10d446a71a5e6c2e48d89, type: 2}
+  fadeOut: {fileID: 1162473513592484, guid: 2e3ef94b5b20702479a4091133aa7574, type: 2}
   inDialogue: 0
 --- !u!1 &1289211863
 GameObject:
@@ -40132,7 +40212,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1485046492}
-  speed: 5
+  speed: 3
 --- !u!58 &1366387939
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -40173,7 +40253,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3bc6b8c9b3396ec409e9a2d662ca8720, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 11
+  health: 10
   playerBody: {fileID: 1686071791207444, guid: f1c924217f66d704298d5749abf4de7f, type: 2}
   onDie:
     m_PersistentCalls:
@@ -40675,6 +40755,7 @@ RectTransform:
   - {fileID: 206509114}
   - {fileID: 228043017}
   - {fileID: 1055743091}
+  - {fileID: 219479715}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -41131,7 +41212,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1485046492}
-  speed: 5
+  speed: 3
 --- !u!114 &1933229248
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41199,7 +41280,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3bc6b8c9b3396ec409e9a2d662ca8720, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 11
+  health: 10
   playerBody: {fileID: 1686071791207444, guid: f1c924217f66d704298d5749abf4de7f, type: 2}
   onDie:
     m_PersistentCalls:

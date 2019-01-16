@@ -20,7 +20,7 @@ RenderSettings:
   m_FogDensity: 0.01
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
-  m_AmbientSkyColor: {r: 0.0989231, g: 0.10682924, b: 0.122641504, a: 1}
+  m_AmbientSkyColor: {r: 0.074092224, g: 0.07769671, b: 0.084905684, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 1
@@ -870,7 +870,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 643037627}
-  speed: 5
+  speed: 3
 --- !u!212 &323812253
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -934,6 +934,74 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -220.017}
+--- !u!1 &385104136
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 385104137}
+  - component: {fileID: 385104139}
+  - component: {fileID: 385104138}
+  m_Layer: 5
+  m_Name: Inst
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &385104137
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 385104136}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1157885481}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 333.29996, y: 160}
+  m_SizeDelta: {x: 372, y: 245.48}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &385104138
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 385104136}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 21300000, guid: 6c6cb44ac44c92e4aa996fc2b07b6a9a, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &385104139
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 385104136}
 --- !u!1 &404757553
 GameObject:
   m_ObjectHideFlags: 0
@@ -1476,7 +1544,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 643037627}
-  speed: 5
+  speed: 3
 --- !u!212 &506502851
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2840,7 +2908,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 643037627}
-  speed: 5
+  speed: 3
 --- !u!114 &823166069
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3030,7 +3098,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 643037627}
-  speed: 5
+  speed: 3
 --- !u!114 &846905341
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3273,6 +3341,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b22c4890602ee649a9da4cfb8ba9de2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  zombie: {fileID: 0}
+  zombie1: {fileID: 0}
+  zombie2: {fileID: 0}
+  zombie3: {fileID: 0}
+  zombie4: {fileID: 0}
+  zombie5: {fileID: 0}
+  dialogue: {fileID: 0}
   fadeOut: {fileID: 1851047117071894, guid: 2556670046be9f842b5355ae022aa0eb, type: 2}
   inDialogue: 0
 --- !u!61 &906727015
@@ -3679,7 +3754,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 643037627}
-  speed: 5
+  speed: 3
 --- !u!114 &939708500
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3806,7 +3881,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 643037627}
-  speed: 5
+  speed: 3
 --- !u!114 &964962731
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4295,7 +4370,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 643037627}
-  speed: 5
+  speed: 4
 --- !u!212 &1101071278
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4530,6 +4605,7 @@ RectTransform:
   - {fileID: 1517919229}
   - {fileID: 44317445}
   - {fileID: 681719535}
+  - {fileID: 385104137}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5044,7 +5120,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 643037627}
-  smoothing: 5
+  smoothing: 3
   adjustmentAngle: -90
 --- !u!114 &1234140936
 MonoBehaviour:
@@ -6556,7 +6632,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 643037627}
-  speed: 5
+  speed: 3
 --- !u!212 &1620876601
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6813,7 +6889,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 643037627}
-  speed: 5
+  speed: 3
   onDetect:
     m_PersistentCalls:
       m_Calls: []
@@ -67966,6 +68042,7 @@ GameObject:
   - component: {fileID: 2043480231}
   - component: {fileID: 2043480230}
   - component: {fileID: 2043480234}
+  - component: {fileID: 2043480235}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -68049,6 +68126,101 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 643037627}
   smoothing: 100
+--- !u!82 &2043480235
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2043480229}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 2d98517d8b4c8fc4a976ca7b72170a1b, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.707
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &2076769151
 GameObject:
   m_ObjectHideFlags: 0

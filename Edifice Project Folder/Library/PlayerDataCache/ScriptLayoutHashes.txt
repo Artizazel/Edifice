@@ -1,6 +1,6 @@
 WindowsStandalone
 PlayerPath?
-E:/GitBackup/Edifice/Edifice Build/Edifice Build.exe
+E:/GitBackup/Edifice/Alpha Build/Alpha Build.exe
 SceneListBegin?
 Assets/Scenes/TitleMenu.unity
 Assets/Scenes/Act1.unity
@@ -185,6 +185,7 @@ cd36a69f7e1ad7c5eea172371e66ae7b Assembly-CSharp.dll:.DoorCollider1
 1ee47048d700dd00b56f643026953707 Assembly-CSharp.dll:.MoveTowardsCletus4
 1ee47048d700dd00b56f643026953707 Assembly-CSharp.dll:.MoveTowardsCletus6
 1ee47048d700dd00b56f643026953707 Assembly-CSharp.dll:.MoveTowardsCletus1
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.End
 eab4666e5d86f456771a1c729bb4a562 Assembly-CSharp.dll:.SmoothLookAtCletus
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.DestroyMenu
 1ee47048d700dd00b56f643026953707 Assembly-CSharp.dll:.MoveTowardsCletus3
@@ -196,4 +197,3 @@ eab4666e5d86f456771a1c729bb4a562 Assembly-CSharp.dll:.SmoothLookAtCletus9
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.GameOverAct3
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.DestroyOnDie
 09b1ffd89522cafe15546a0482157e21 Assembly-CSharp.dll:.MoveTowardsCletus
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.End

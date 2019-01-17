@@ -12,6 +12,7 @@ public class DestroyMenu : MonoBehaviour {
 
 
 	}
+    //Timer, waits 4 seconds then destroys the menu
     IEnumerator Timer()
     {
         yield return new WaitForSeconds(4);

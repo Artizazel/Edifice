@@ -10,7 +10,7 @@ public class OnDamagedEvent : UnityEvent<int> { }
 
 public class Health : MonoBehaviour {
 
-
+    //Declares all necessary variables
     public int health = 10;
 
     public GameObject playerBody;
@@ -21,7 +21,7 @@ public class Health : MonoBehaviour {
 
     public bool TakenDamage = false;
 
-
+    //Creates a method that changes the health value and will destroy the game object if it runs out of health
     public void TakeDamage(int damage)
     {
         health -= damage;

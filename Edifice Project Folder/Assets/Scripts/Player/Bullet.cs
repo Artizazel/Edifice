@@ -34,6 +34,8 @@ public class Bullet : MonoBehaviour {
 		
 	}
 
+
+    //Tells the other object that it has been hit by a bullet, then self destructs
     private void OnTriggerEnter2D(Collider2D other)
     {
         string methodName = "TakeDamage";

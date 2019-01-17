@@ -18,6 +18,7 @@ public class Enemy : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 
+        //Finds the Cletus GameObject to later follow him once detected
         GameObject player = GameObject.FindWithTag("Cletus");
 
         onSpawn.Invoke(player.transform);

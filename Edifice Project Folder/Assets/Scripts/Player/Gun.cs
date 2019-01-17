@@ -61,6 +61,7 @@ public class Gun : MonoBehaviour {
             
         }
 
+        //Degubbing tools to skip through levels
         if(Input.GetKeyDown("8"))
         {
             SceneManager.LoadScene("TitleMenu");
@@ -95,7 +96,7 @@ public class Gun : MonoBehaviour {
 
 
 
-
+    //Checks if the player isn't already reloading and sets the ammo to 7
     private void reload()
     {
 

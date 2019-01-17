@@ -27,6 +27,7 @@ public class Typer : MonoBehaviour {
         textComp = GetComponent<Text>();
     }
 
+    //Individually types in each letter to a text box
     public IEnumerator TypeIn()
     {
         yield return new WaitForSeconds(startDelay);

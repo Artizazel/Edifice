@@ -33,6 +33,7 @@ public class PlayerAnimate : MonoBehaviour {
 		
 	}
 
+    
     public void SendHealthData(int health)
     {
         if (OnUpdateHealth != null)

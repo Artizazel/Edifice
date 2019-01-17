@@ -27,7 +27,7 @@ public class PlayerHealth : MonoBehaviour
 
     public GameObject gameOverScreen;
 
-
+    //Reduces health int by the ammo of damage dealt and destroys Cletus then spawns the game over screen if health hits 0 or less
     public void TakeDamage(int damage)
     {
         health -= damage;

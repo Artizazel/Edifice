@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class ActivateTorch : MonoBehaviour {
 
 
-
+    //Declares all necessary variables
     public Light Flashlight;
 
     private bool Toggled = false;
@@ -38,6 +38,8 @@ public class ActivateTorch : MonoBehaviour {
         Invoke("Flicker", 0.1f);
         
     }
+
+    //Cause the flashlight to flicker when turned on or off
     private int Flicker()
     {
 
@@ -67,13 +69,14 @@ public class ActivateTorch : MonoBehaviour {
 
         Flicker();
 
+        //Will constantly regenerate the torch's battery if it isn't already full
         if(torchBattery < 100)
         {
             torchBattery += 0.1f;
         }
 
 
-
+        //Turns the batter on if off and off if on
         if(Input.GetMouseButton(1) && Toggled == false && torchBattery > 0)
         {
             ToggleLight();
